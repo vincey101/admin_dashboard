@@ -1,9 +1,9 @@
 ## AS a collaborator
 If you’re a collaborator, go to the Github Repo page, Git Clone the project with the following command or simply cd into your work repository(Desktop) on your machine and paste the following command:
-$ git clone https://github.com/vincey101/admin_dashboard.git
+## $ git clone https://github.com/vincey101/admin_dashboard.git
 
 then:
-$ cd admin_dashboard
+## $ cd admin_dashboard
 
 ### COLLABORATION
 When you’re using git to work on the same project with multiple people, there’s one central rule you must follow:
@@ -13,12 +13,12 @@ The way to keep Master deployable is to create new branches for new features and
 To start, branches should always represent features. For example, if you want to add the ability for a user to login you should probably create a branch called “user_auth” and in that branch you should only update what you need to to enable a user to login.
 
 So let’s say you want to create the User model. In your terminal create a new branch:
-$ git co -b user_auth
+## $ git co -b user_auth
 
 You’re now in your new branch and can start coding away.
 
 ## Note: As a general rule, you should git add frequently and git commit when you finish something that allows your code to work (ends up being a couple times an hour). For example, when you finish a method and the code base works, git commit like so:
-$ git commit -m "Added function to allow Users sign in"
+ ## $ git commit -m "Added function to allow Users sign in"
 
 ### Submitting Pull Requests
 
@@ -27,7 +27,7 @@ Your team spent all day and night working on their separate features in their va
 Determining your Git Flow is a huge part of working in a team, but here’s one Git Flow you could adopt for now:
 
 ## Next, everyone git push their branches:
-$ git push
+## $ git push
 
 Now go to the Github Repo page. You should see the branch you pushed up in a yellow bar at the top of the page with a button to “Compare & pull request”.
 
